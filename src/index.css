@@ -1,14 +1,30 @@
 :root {
-  --ink: #1b2430;
-  --paper: #f3efe6;
-  --cream: #ece5d3;
+  /* Brand Core Colors */
   --council-navy: #1c2e4a;
   --council-maroon: #6d2331;
   --gold: #b8863b;
   --gold-light: #d9b571;
-  --line: #d8d0bd;
+
+  /* Surfaces & Backgrounds */
+  --paper: #f3efe6;
+  --cream: #ece5d3;
+  --council-bg-alt: #eee8d8;
+  --quote-box-bg: #eee7d7;
+
+  /* Typography & Ink */
+  --ink: #1b2430;
   --muted: #706957;
+  --subtext: #8a8368;
+  --hero-sub: #d8d9dd;
+  --footer-text: #b6bac4;
+  --body-text-dark: #3f3b31;
+  --quote-text: #4a4638;
+
+  /* Borders & Gradients */
+  --line: #d8d0bd;
+  --navy-gradient-alt: #314b70;
 }
+
 
 * { box-sizing: border-box; }
 
